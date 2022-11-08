@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="project2.css" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/57d1069f10.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- nav-->
+    <nav class="navbar white sticky-top font-2">
+        <div class="container-fluid border-bottom ">
+            <div class="upper-nav-left dumbbell">
+                <i class="fa-solid fa-dumbbell" href="#"></i>
+            </div>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2 border-collapse search" type="search" placeholder="Search"
+                    aria-label="Search" name="searchBar" value="">
+                <button class="btn " type="submit">
+                    <i class="fa-solid fa-magnifying-glass "></i>
+                </button>
+
+            </form>
+            <div class="row upper-nav-right">
+
+                <span class="col nav-item protein">
+                    <h5>PROTEIN</h5>
+                </span>
+                <span class="col nav-item product">
+                    <h5>PRODUCT</h5>
+                </span>
+                <span class='col nav-item login'>
+                    <h5>LOGIN</h5>
+
+                </span>
+            </div>
+
+        </div>
+        <div class='nav-menu hide w-100'>
+            <div class='container'>
+                <ol>
+                    <h5>
+                        <li class="nav-menu-item">shoes</li>
+                    </h5>
+                    <h5>
+                        <li class="nav-menu-item">shoes</li>
+                    </h5>
+                    <h5>
+                        <li class="nav-menu-item">shoes</li>
+                    </h5>
+                    <h5>
+                        <li class="nav-menu-item">shoes</li>
+                    </h5>
+                    <h5>
+                        <li class="nav-menu-item">shoes</li>
+                    </h5>
+                </ol>
+
+            </div>
+        </div>
+        <!-- scroll nav -->
+        <div class="container-fluid white border-bottom mt-0">
+            <div class="row w-100 " style="font-size:x-large;">
+                <div class="col p-3 nav-item" id="none"></div>
+                <div class="col p-3 nav-item yourself">yourself</div>
+                <div class="col p-3 nav-item schedule">schedule</div>
+                <div class="col p-3 nav-item exercise">exercise</div>
+                <div class="col p-3 nav-item" id="none"></div>
+
+            </div>
+        </div>
+
+
+        <!-- process nav-->
+    </nav>
+
+    <!-- whole wrapper  -->
+    <div class="blur-body" style=" background: linear-gradient(to bottom right, white, #f4f5f0);">
+        <!-- div 1 quote-->
+        <div class="wrapper mt-4 " id="sectionA">
+
+            <div id="carouselExampleSlidesOnly container-xl " class="carousel slide bg-black h-100 bg-cover"
+                data-bs-ride="carousel">
+                <div class="carousel-inner w-100 h-100">
+                    <div class="carousel-item active w-100 h-100">
+                        <img src="img/quote.PNG" class="d-block w-100" alt="..." />
+                        <div class="card-img-overlay container-fluid">
+                            <h5 class="card-title">
+                                be the best version of you
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item active w-100 h-100">
+                        <img src="img/quote2.PNG" class="d-block w-100" alt="..." />
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">
+                                be the best version of you
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item active w-100 h-100">
+                        <img src="img/quote3.PNG" class="d-block w-100" alt="..." />
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">
+                                be the best version of you
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  wrapper  -->
+        <div class="session-margin">
+            <!--Session 1-->
+
+            <div class="container-lg p-5 session">
+                <h1 class="font-1" style="color:black"></h1>
+                <h3 class="font-2 " style="color:black; text-shadow:none;">
+                </h3>
+            </div>
+
+            <!-- div 2 map-->
+
+            <div class="container-md white" id="sectionB">
+
+
+
+                <div class="row font-1">
+                    <div class="col-md-4 col-sm-6 service-box bg-cover yourself"
+                        style=" background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(255,255,255,0.1) 100%), url(img/info.PNG)">
+
+                        <h3 class="main-h3 ">INFO</h3>
+
+                    </div>
+                    <div class="col-md-4 col-sm-6 service-box schedule" style="
+             background-position: center; background-image:url(img/schedule.PNG)">
+
+                        <h3 class="main-h3">SCHEDULE</h3>
+                    </div>
+                    <div class="col-md-4 col-sm-6 service-box exercise" style="background-image:url(img/workout.PNG)">
+
+                        <h3 class="main-h3">WORKOUT</h3>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <!--  wrapper  yourself -->
+        <div class="session-margin" id="yourself-main">
+            <!--Session 2-->
+
+            <div class="container-lg p-5 font-1 session">
+                <h1 class="font-1" style="color:black"> YOURSELF</h1>
+                <h4 class="font-2" style="color:black; text-shadow: none;">You define beauty yourself<br>
+                    Society doesn't define your beauty</h4>
+            </div>
+
+            <!-------------
+        div 3 
+        yourself
+    ---------------->
+            <div class="container-md text-center info-box font-2">
+                <div class="row h-100">
+                    <div class="col h-100 mx-2"
+                        style=" height:200px; background-size: auto; background-image:url(img/info.PNG)">
+
+                    </div>
+                    <div class="col h-100 mt-2">
+                        <form class="container-md w-75">
+                            <div class="row">
+                                <h5>GENDER</h5>
+                            </div>
+                            <div>
+                                <label class="btn btn-outline-black">
+                                    <input type="radio" name="gender" id="men" autocomplete="off"> Men
+                                </label>
+                                <label class="btn btn-outline-black">
+                                    <input type="radio" name="gender" id="women" autocomplete="off"> Women
+                                </label><br>
+                            </div>
+                            <div class="row">
+                                <h5>HEIGHT</h5>
+                            </div>
+                            <input class="my-2" type="text" placeholder="cm" id="height" value=""><br>
+                            <div class="row">
+                                <h5>WEIGHT</h5>
+                            </div>
+                            <input class="my-2" type="text" placeholder="kg" id="weight" value=""><br>
+                            <div class="row">
+                                <h5>AGE</h5>
+                            </div>
+                            <input class="my-2" type="text" placeholder="age" id="age" value=""><br>
+                            <div class="mt-5">
+                                <button id="caluculate" value="submit">Calculate!</button><br>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container-md text-center rounded notice-box mt-5" style="width: 100%; height: 100px">
+                <h5> Your expected Calorie intake a day <br />
+                    will be ${minimun}~ ${maximum} kcal. <br />
+                    don't forget your nutrition balance</h5>
+            </div>
+        </div>
+
+        <!--  wrapper  schedule-->
+        <div class="session-margin" id="schedule-main">
+            <!--Session 3-->
+
+            <div class="container-lg p-5  session">
+                <h1 class="font-1" style="color:black ">SCHEDULE</h1>
+                <h4 class="font-2 " style="color:black; text-shadow: none">plan your time<br>
+                    plan your body</h4>
+            </div>
+
+            <!-- --------- lo
+            div 4 schedule
+            ----------------->
+            <div class="container-md info-box font-2 text-center ">
+                <div class="row h-100">
+
+                    <form class="col  h-100 mt-2  ">
+                        <div class="container-md w-75">
+                            <div class="row my-2 mb-4">
+                                <h5>Number of days </h5>
+
+                                <input class="my-2" type="text" placeholder="days"><br>
+                            </div>
+                            <div class="row my-2 mb-4">
+                                <h5>Which day </h5>
+                                <div class="btn-group-toggle text-center" data-toggle="buttons">
+                                    <label class="btn btn-outline-black ">
+                                        <input type="checkbox" autocomplete="off">Mon
+                                    </label>
+                                    <label class="btn btn-outline-black ">
+                                        <input type="checkbox" autocomplete="off">Tue
+                                    </label>
+                                    <label class="btn btn-outline-black ">
+                                        <input type="checkbox" autocomplete="off">Wed
+                                    </label>
+                                    <label class="btn btn-outline-black ">
+                                        <input type="checkbox" autocomplete="off">Thu
+                                    </label>
+                                    <label class="btn btn-outline-black ">
+                                        <input type="checkbox" autocomplete="off">Fri
+                                    </label>
+                                    <label class="btn btn-outline-black ">
+                                        <input type="checkbox" autocomplete="off">Sat
+                                    </label>
+                                    <label class="btn btn-outline-black ">
+                                        <input type="checkbox" autocomplete="off">Sun
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row my-2">
+                            <h5>Fitness Level </h5>
+                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-outline-black">
+                                    <input type="radio" name="options" id="option1" autocomplete="off"> Beginner
+                                </label>
+                                <label class="btn btn-outline-black">
+                                    <input type="radio" name="options" id="option2" autocomplete="off"> Intermediate
+                                </label>
+                                <label class="btn btn-outline-black">
+                                    <input type="radio" name="options" id="option3" autocomplete="off"> Advanced
+                                </label>
+                            </div>
+                            <div class="mt-4">
+                                <button id="caluculate" value="submit">Calculate!</button><br>
+                            </div>
+                        </div>
+
+                    </form>
+                    <div class=" col h-100 mx-2"
+                        style=" height:200px; background-size: auto; background-image:url(img/schedule.PNG)">
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="container-md text-center rounded notice-box mt-5" style="width: 100%; height: 100px">
+                <h5> You decided ${NumberOfDays} a week <br />
+                    ${selectedDay}will be your work-out days <br />
+                    with ${workoutLevel}exercise, <br>
+                    you will lose ${consumeCalorie}calories</h5>
+            </div>
+        </div>
+        <!--  wrapper workout -->
+        <div class="session-margin" id="exercise-main">
+            <!--Session 4 workout-->
+
+            <div class="container-lg p-5  session" id="workout">
+                <h1 class="font-1" style="color:black ">WORKOUT</h1>
+                <h4 class="font-2 " style="color:black; text-shadow: none;">SWEAT.SMILE.REPEAT</h4>
+            </div>
+
+
+            <!--Level selection 4 -->
+            <div class="container-lg text-center p-5 font-2 session">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn white" id="basic">Beginner</button>
+                    <button type="button" class="btn white" id="intermediate">Intermediate</button>
+                    <button type="button" class="btn white" id="advanced">Advanced</button>
+                </div>
+            </div>
+
+            <!-- ---------
+            div 5 workout basic
+    ----------------->
+
+            <div class="container-lg white ">
+
+                <div class="row font-1" id="workOutBasic">
+                    <div id="yoga" class="col-md-4 col-sm-6 service-box bg-cover yoga workOut" style="
+                    background-position: center; background-image:url(img/yoga.PNG)">
+
+                        <h3 class="main-h3">YOGA</h3>
+                    </div>
+
+                    <div id="stretching" class="col-md-4 col-sm-6 service-box stretching workOut" style="
+             background-position: center; background-image:url(img/schedule.PNG)">
+
+                        <h3 class="main-h3">Stretching</h3>
+                    </div>
+                    <div id="fullbody" class="col-md-4 col-sm-6 service-box fullbody workOut"
+                        style="background-image:url(img/workout.PNG)">
+
+                        <h3 class="main-h3">Fullbody Workout</h3>
+
+
+                    </div>
+
+                </div>
+
+                <!-- ---------
+            div 6 workout intermediate
+    ----------------->
+
+                <div class="container-lg white hide" id="workOutInter">
+
+
+
+                    <div class="row font-1" id="workOutInter">
+                        <div class="col-md-4 col-sm-6 service-box bg-cover workOut"
+                            style=" background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(255,255,255,0.1) 100%), url(img/yoga.PNG)">
+
+                            <h3 class="main-h3 ">Yoga</h3>
+
+                        </div>
+                        <div class="col-md-4 col-sm-6 service-box workOut" style="
+             background-position: center; background-image:url(img/workout.PNG)">
+
+                            <h3 class="main-h3">Stretching</h3>
+                        </div>
+                        <div class="col-md-4 col-sm-6 service-box workOut"
+                            style="background-image:url(img/fullworkout.PNG)">
+
+                            <h3 class="main-h3">Fullbody Workout</h3>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <!-- ---------
+            div 7  workout advanceds
+    ----------------->
+
+                <div class="container-lg white hide" id="workOutAdvanced">
+
+
+
+                    <div class="row font-1">
+                        <div class="col-md-4 col-sm-6 service-box bg-cover workOut"
+                            style=" background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(255,255,255,0.1) 100%), url(img/yoga.PNG)">
+
+                            <h3 class="main-h3 ">Yoga</h3>
+
+                        </div>
+                        <div class="col-md-4 col-sm-6 service-box workOut" style="
+             background-position: center; background-image:url(img/workout.PNG)">
+
+                            <h3 class="main-h3">Stretching</h3>
+                        </div>
+                        <div class="col-md-4 col-sm-6 service-box workOut"
+                            style="background-image:url(img/schedule.PNG)">
+
+                            <h3 class="main-h3">Fullbody Workout</h3>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--- 
+                workout details
+            -->
+            <div class="container-lg container-exercise hide">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="row">
+                            <div id="a" class="col-12">
+                                <!-- Piece A -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="b" class="col-12">
+                                <!-- Piece B -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="c" class="col-9">
+                        <!-- Piece C -->
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="d" class="col-3">
+                        <!-- Piece D -->
+                    </div>
+
+                    <div id="e" class="col-6">
+                        <!-- Piece E -->
+                    </div>
+
+
+                    <div class="col-3">
+
+                    </div>
+                </div>
+                <!-- footer never open-->
+            </div>
+            <footer class="navbar white sticky-top font-2">
+                <section class="footer-bottom-section flex-rw">
+                    <span class="footer-bottom-overlap">
+                        <i class="fa fa-copyright" role="copyright">
+
+                        </i> 2022 HAFI corporate Foundation <address class="footer-address" role="company address">TOKYO
+                        </address><span class="footer-bottom-rights"> - All Rights Reserved - </span>
+                    </span>
+                    <span class="footer-bottom-overlap">
+                        <a href="/terms-of-use.html" class="generic-anchor" rel="nofollow">Terms</a> | <a
+                            href="/privacy-policy.html" class="generic-anchor" rel="nofollow">Privacy</a>
+                    </span>
+
+                    <span class="footer-social-overlap ">
+                        <a href="https://www.pinterest.com/paviliongift/" class="generic-anchor" target="_blank"
+                            title="Pinterest" itemprop="significantLink"><i class="fa fa-pinterest"></i></a>
+                        <a href="https://www.facebook.com/paviliongift" class="generic-anchor" target="_blank"
+                            title="Facebook" itemprop="significantLink"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/PavilionGiftCo" class="generic-anchor" target="_blank"
+                            title="Twitter" itemprop="significantLink"><i class="fa fa-twitter"></i></a>
+                        <a href="http://instagram.com/paviliongiftcompany" class="generic-anchor" target="_blank"
+                            title="Instagram" itemprop="significantLink"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCYgUODvd0qXbu_LkUWpTVEg" class="generic-anchor"
+                            target="_blank" title="Youtube" itemprop="significantLink"><i class="fa fa-youtube"></i></a>
+                        <a href="https://plus.google.com/+Paviliongift/posts" class="generic-anchor" target="_blank"
+                            title="Google Plus" itemprop="significantLink"><i class="fa fa-google-plus"></i></a>
+                    </span>
+                </section>
+            </footer>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+                crossorigin="anonymous"></script>
+            <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+            <script src="project.js"></script>
+</body>
+
+</html>

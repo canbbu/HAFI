@@ -1,0 +1,528 @@
+   /* title */
+   @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Outfit:wght@500;600;700;800&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Outfit:wght@500;600;700;800&family=Rampart+One&display=swap');
+
+   * {
+     background-repeat: no-repeat;
+     background-size: cover;
+
+   }
+
+
+   .font-1 {
+
+     font-family: 'Outfit', sans-serif;
+     text-shadow: 2px 2px 2px gray;
+   }
+
+   .font-2 {
+
+     font-family: 'Outfit', sans-serif;
+     text-shadow: 2px 2px 2px gray;
+   }
+
+   a {
+     color: inherit;
+   }
+
+
+
+   body {
+     background-color: #f4f5f0;
+   }
+
+   .title {
+     position: relative;
+     left: 0;
+     top: 0;
+   }
+
+   input {
+     text-align: center;
+   }
+
+   nav span {
+     padding: 1em;
+     text-align: center;
+   }
+
+   .wrapper {
+     height: auto;
+   }
+
+   .container-xl {
+     height: auto;
+     width: 75%;
+
+   }
+
+
+   .session-margin {
+     margin-bottom: 100px;
+   }
+
+
+   /* upper nav*/
+   .upper-nav-left {
+     width: 3em;
+     height: auto;
+     font-size: xx-large;
+   }
+
+   .upper-nav-left i:hover {
+     cursor: pointer;
+
+   }
+
+   .upper-nav-right {
+     font-weight: bold;
+     font-size: large;
+   }
+
+   .upper-nav-right span:hover {
+     cursor: pointer;
+
+   }
+
+   .second-nav .row {
+     width: 100%;
+   }
+
+   .second-nav .row .col {
+
+     background-color: #474747;
+   }
+
+   h3 {
+
+     text-shadow: none;
+   }
+
+
+
+   .centered {
+     position: absolute;
+     margin-left: 50%;
+
+
+   }
+
+   .nav-menu {
+     background-color: white;
+     color: #181918;
+     box-shadow: 1px 1px 1px 1px grey;
+   }
+
+   .nav-menu .container {
+     padding: 1.5em;
+     display: flex;
+   }
+
+   .nav-menu .container ul {
+     list-style: none;
+   }
+
+   .nav-menu .container ul li {
+     padding: 0.25em 2em;
+   }
+
+   .blur {
+     filter: blur(4px);
+   }
+
+   .hide {
+     display: none;
+   }
+
+   .show {
+     display: block;
+
+   }
+
+   /* nav 
+   
+   */
+   html {
+     scroll-behavior: smooth;
+   }
+
+   nav {
+     height: 75px;
+     top: 0;
+     text-align: center;
+     padding: 15px;
+     background: #fff;
+     box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2);
+   }
+
+   nav .link {
+     padding: 5px;
+     color: white;
+   }
+
+
+   .section {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #fff;
+     font-size: 5em;
+     text-shadow: 0px 2px 0px #b2a98f, 0px 4px 3px rgba(0, 0, 0, 0.15),
+       0px 8px 1px rgba(0, 0, 0, 0.1);
+   }
+
+   /* search- */
+   .search-area {
+     background-color: white;
+     box-shadow: 1px 1px 1px 1px grey;
+   }
+
+   /* main 
+        
+        */
+
+   .main-h3 {
+     margin-top: 50px;
+   }
+
+   .service-box:hover {
+     cursor: pointer;
+   }
+
+   .service-box {
+     width: 100%;
+     height: 50vh;
+     padding: 20px;
+     border: 3px solid white;
+
+     transition: all 0.5s ease;
+     font-size: 15px;
+     color: #fff;
+     text-align: center;
+     text-transform: uppercase;
+     background-color: #181918;
+     box-shadow: 1px 1px 1px 1px grey;
+   }
+
+   .service-box:hover {
+     opacity: 0.5;
+
+   }
+
+   .info-box {
+     box-shadow: 1px 1px 1px 1px grey;
+     padding: 10px;
+     height: 50vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(244, 245, 240, 0.5) 100%);
+
+   }
+
+   .schedule-box {
+
+     padding: 10px;
+     height: 50vh;
+   }
+
+   .schedule-item {
+     box-shadow: 5px 5px 5px 5px grey;
+   }
+
+   .notice-box {
+
+     color: #181918;
+     padding: 10px;
+     font-family: 'Outfit', sans-serif;
+     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(244, 245, 240, 0.2) 100%)
+   }
+
+
+   .schedule-item-box {
+     width: 100%;
+     height: 440px;
+     padding: 20px;
+     text-align: center;
+     transition: all 0.5s ease;
+     font-size: 15px;
+     color: #fff;
+     text-transform: uppercase;
+     margin: 1em;
+
+   }
+
+   button:hover {
+     opacity: 0.5;
+   }
+
+
+
+
+   .yellow {
+     background-color: #f0c420;
+   }
+
+   .orange {
+     background-color: #fc7f0c;
+   }
+
+   .red {
+     background-color: #e84b3a;
+   }
+
+   .white {
+     background-color: #f4f5f0;
+   }
+
+   .black {
+     background-color: #181918;
+   }
+
+   .green {
+     background-color: #f6f6f2;
+   }
+
+   /*schedule*/
+   .schedule-btn {
+     height: auto;
+     margin: 0.5em;
+     border-radius: 10px;
+     border: none;
+     background-color: none;
+   }
+
+   /* exercise */
+
+   /* yoga exercise */
+
+   video {
+     width: 100%;
+     height: 400px;
+     object-fit: fill;
+
+   }
+
+   /* exercise detail */
+   .container-exercise {
+     width: 500px;
+     height: 505px;
+   }
+
+   #a {
+     border: solid black;
+
+     min-height: 165px;
+
+   }
+
+   #b {
+     border: solid black;
+
+     min-height: 190px;
+
+   }
+
+   #c {
+     border: solid black;
+
+     min-height: 355px;
+
+   }
+
+   #d {
+     border: solid black;
+
+     min-height: 150px;
+
+   }
+
+   #e {
+     border: solid black;
+
+     min-height: 150px;
+
+   }
+
+   #f {
+     border: solid black;
+
+     min-height: 75px;
+
+   }
+
+   /* footer */
+
+
+   footer {
+     margin-top: auto;
+     width: 100%
+   }
+
+   .footer-list-top {
+     width: 33.333%
+   }
+
+   .footer-list-top>li {
+     text-align: center;
+     padding-bottom: 10px
+   }
+
+   .footer-list-header {
+     padding: 10px 0 5px 0;
+     color: #fff;
+     font: 2.3vw "Oswald", sans-serif
+   }
+
+   .footer-list-anchor {
+     font: 1.3em "Open Sans", sans-serif
+   }
+
+   .footer-social-section::after {
+     content: "";
+     position: absolute;
+     z-index: 1;
+     top: 50%;
+     left: 10px;
+     border-top: 1px solid
+   }
+
+   .footer-social-overlap {
+     float: right;
+     padding: 0;
+     font-size: 10px;
+   }
+
+   .footer-social-connect {
+     display: flex;
+     align-items: center;
+     font: 3.5em "Oswald", sans-serif;
+     color: #fff
+   }
+
+   .footer-social-small {
+     font-size: 0.6em;
+     padding: 0px 20px
+   }
+
+   .footer-social-overlap>a {
+     font-size: 3em
+   }
+
+   .footer-social-overlap>a:not(:first-child) {
+     margin-left: 0.38em
+   }
+
+   .footer-bottom-section {
+     width: 100%;
+     padding: 10px;
+     border-top: 1px solid;
+     margin-top: 10px;
+   }
+
+   .footer-bottom-section>div:first-child {
+     margin-right: auto
+   }
+
+   .footer-bottom-wrapper {
+     font-size: 1.5em;
+     color: #fff
+   }
+
+   .footer-address {
+     display: inline;
+     font-style: normal
+   }
+
+   @media only screen and (max-width: 768px) {
+     .footer-list-header {
+       font-size: 2em
+     }
+
+     .footer-list-anchor {
+       font-size: 1.1em
+     }
+
+     .footer-social-connect {
+       font-size: 2.5em
+     }
+
+     .footer-social-overlap>a {
+       font-size: 2.24em
+     }
+
+     .footer-bottom-wrapper {
+       font-size: 1.3em
+     }
+   }
+
+   @media only screen and (max-width: 568px) {
+     main {
+       font-size: 5em
+     }
+
+     .footer-list-top {
+       width: 100%
+     }
+
+     .footer-list-header {
+       font-size: 3em;
+     }
+
+     .footer-list-anchor {
+       font-size: 1.5em
+     }
+
+     .footer-social-section {
+       justify-content: center
+     }
+
+     .footer-social-section::after {
+       top: 25%
+     }
+
+     .footer-social-connect {
+       margin-bottom: 10px;
+       padding: 0 10px
+     }
+
+     .footer-social-overlap {
+       display: flex;
+       justify-content: center;
+     }
+
+     .footer-social-overlap>a:not(:first-child) {
+       margin-left: 20px;
+     }
+
+      /*workout css */
+
+     .wrap {
+       margin: 0;
+       padding: 0;
+       background-color: black;
+     }
+
+     .exercise-box {
+       filter: grayscale(1);
+       border: 4px solid #000;
+       
+     }
+
+     .exercise-box video{
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      object-fit: cover;
+    }
+
+     .exercise-box:hover {
+       filter: grayscale(0);
+     }
+
+
+
+
+
+   }
